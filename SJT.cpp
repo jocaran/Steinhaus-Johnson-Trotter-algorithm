@@ -38,7 +38,7 @@ int getMobile(int a[], bool dir[], int n)
 }
 
 
-int SJT(int a[], bool dir[], int n)
+void SJT(int a[], bool dir[], int n)
 {
 	int mobile = getMobile(a, dir, n);
 
